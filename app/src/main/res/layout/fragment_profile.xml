@@ -8,11 +8,25 @@
     tools:context=".ProfileFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Ini adlah bagian dari halaman Profile"
-        android:textSize="24sp"
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/prop"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textStyle="italic"
+            android:text="Ini adalah bagian dari halaman Profile"
+            android:textSize="24sp"
         />
+    </FrameLayout>
 
 </LinearLayout>

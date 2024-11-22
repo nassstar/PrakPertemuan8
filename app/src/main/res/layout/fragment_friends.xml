@@ -7,12 +7,23 @@
     android:gravity="center"
     tools:context=".FriendsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/pren"
+            />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Ini adlah bagian dari halaman Friends"
-        android:textSize="24sp"
-        />
+        android:clipToPadding="false"
+        android:paddingBottom="8dp"/>
+    </FrameLayout>
 
 </LinearLayout>

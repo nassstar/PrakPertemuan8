@@ -8,11 +8,27 @@
     tools:context=".GithubFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Ini adlah bagian dari halaman Github"
-        android:textSize="24sp"
-        />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/cat"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:text="Ini adalah halaman Github"
+            android:textSize="28sp"
+            android:textStyle="italic"/>
+    </FrameLayout>
+
 
 </LinearLayout>
